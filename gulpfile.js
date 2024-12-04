@@ -30,3 +30,4 @@ exports.default = function() {
     gulp.watch('./source/scripts/*.js', { ignoreInitial: false}, gulp.series(comprimeJs));
     gulp.watch('./source/images/*', { ignoreInitial: false}, gulp.series(comprimeImg));
 }
+
